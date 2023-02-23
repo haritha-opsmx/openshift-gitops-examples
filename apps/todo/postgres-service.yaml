@@ -5,7 +5,7 @@ metadata:
   name: postgresql
   namespace: todo
   annotations:
-    argocd.argoproj.io/sync-wave: "0"
+    argocd.argoproj.io/sync-wave: "-11"
 spec:
   selector:
     app: postgresql
